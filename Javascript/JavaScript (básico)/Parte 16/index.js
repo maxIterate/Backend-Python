@@ -1,6 +1,7 @@
 const parrafos = document.querySelectorAll('.parrafo')
 const secciones = document.querySelectorAll('.seccion')
-
+const tarro = document.querySelector(".tarro")
+console.log(tarro)
 console.log(parrafos)
 
 parrafos.forEach(parrafo => {
@@ -33,4 +34,18 @@ secciones.forEach(seccion => {
         const parrafo = document.getElementById(id_parrafo)
         seccion.appendChild(parrafo)
     })
+
+
+})
+
+tarro.addEventListener("dragover", event => {
+        event.preventDefault()
+        event.dataTransfer.dropEffect = "move"
+    })
+
+tarro.addEventListener("drop", event => {
+    const id_parrafo  = event.dataTransfer.getData("id")
+    const parrafo = document.getElementById(id_parrafo)
+
+    parrafo.parentNode.removeChild(parrafo)
 })
