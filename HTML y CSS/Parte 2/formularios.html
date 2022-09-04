@@ -10,17 +10,18 @@
     <form action="resultados.html" method="GET">
         <div>
             <label for="nombre">Nombre:</label>
-            <input id="nombre" name="nombre">
+            <input type="text" id="nombre" name="nombre" required>
         </div>
         <div>
             <label for="password">Contraseña:</label>
-            <input id="password" name="nombre">
+            <input type="password" id="password" name="nombre" required>
         </div>
         <div>
             <label for="comentario">Comentario:</label>
             <textarea id="comentario" name="comentarios"></textarea>
         </div>
-        <button>Enviar</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
