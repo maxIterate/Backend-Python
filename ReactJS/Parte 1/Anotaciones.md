@@ -91,3 +91,11 @@ HTTP (HyperText Transfer Protocol)
 
 ## JSX
 
+JSX es una extensión de sintaxis de JavaScript. 
+Útil como ayuda visual cuando trabajan con la interfaz de usuario dentro del código JavaScript. También permite que React muestre mensajes de error y advertencia más útiles.
+
+Ventajas:
+
+- Si una etiqueta está vacía, puede cerrarla inmediatamente con />, como XML
+- Las etiquetas JSX pueden contener elementos secundarios
+- Se puede combinar html y javascript sin necesidad de utilizar las comillas.
