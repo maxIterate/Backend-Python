@@ -14,3 +14,10 @@ Se puede utilizar en cualquier lugar, la podemos enveber, podemos usarla para ge
 Los componentes tienen su propio constructor y podemos pasarle información
 
 Entre llaves se plantea contenido Javascript
+
+Componentes puros: estaticos
+Componentes contenedores: son los que actualizan y renderizan a los de más bajo nivel, ósea los container son de orden superior, tendran la logica y los datos.
+
+
+SPA: página única con un solo HTML que renderiza distintos contenidos.
+
