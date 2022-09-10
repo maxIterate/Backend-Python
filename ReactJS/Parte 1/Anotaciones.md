@@ -84,7 +84,7 @@ Está basado en el uso de eventos **asíncronos** y en él destaca el uso de HTT
 HTTP (HyperText Transfer Protocol)
 
 
-// node_modules : donde todas las dependencias están instaladas
+// node_modules : donde todas las dependencias están instaladas.
 // package-lock.json : referencia estatica a los paquetes instalados y dónde lo ha instalado, qué versión tenian, etc.
 // ReactDOM : utilizado para renderizar elementos.
 
