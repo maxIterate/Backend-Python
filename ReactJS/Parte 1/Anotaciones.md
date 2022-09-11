@@ -99,3 +99,8 @@ Ventajas:
 - Si una etiqueta está vacía, puede cerrarla inmediatamente con />, como XML
 - Las etiquetas JSX pueden contener elementos secundarios
 - Se puede combinar html y javascript sin necesidad de utilizar las comillas.
+
+
+## Contexto
+
+Trabajar con el estado de un componente de orden superior y utilizar esa información para actualizar los componentes de orden inferior a través de un contexto, es decir, un ámbito de información accesible de componentes inferiores.
