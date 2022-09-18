@@ -12,6 +12,7 @@ import Ejemplo4 from './hooks/Ejemplo4';
 function App() {
   return (
     <div className="App">
+    <h1 className='text-red-500 hover:text-red-900'>Holaaa xddd</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {/* Componente propio */}
