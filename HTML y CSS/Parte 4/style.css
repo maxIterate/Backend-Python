@@ -1,0 +1,55 @@
+/* Jerarquia -->
+    -> ID
+    -> Clase
+    -> Elemento
+*/
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+}
+/* clave: valor; */
+p {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p#p-loles {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 2.4rem;
+    color: yellowgreen;
+}
+
+#elcu-purpura {
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-div {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+}
+
+#sectionEpica {
+    border: 2px solid black;
+    padding: 10px;
+    width: fit-content;
+    height: min-content;
+}
+
+.section-pe1, .section-pe2, .section-pe3, .section-pe4 {
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 2rem;
+}
