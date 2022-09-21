@@ -1,0 +1,28 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-1, .div-2 {
+    font-size: 2rem;
+    background-color: cadetblue;
+    /* display: block; por defecto */
+}
+
+.span-1 {
+    font-size: 1.5rem;
+    background-color: darkkhaki;
+    /* display: inline; por defecto */
+}
+
+.span-2 {
+    font-size: 1.5rem;
+    background-color: darkkhaki;
+    /* display: inline; por defecto */
+    float: right
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    /* display: inline-block; por defecto (la diferencia es que se puede colocar width y heigth)*/
+}
