@@ -1,0 +1,53 @@
+.flex {
+    display: flex;
+    background-color: yellow;
+    height: 500px;
+    justify-content: space-around; /* posiciona el conjunto de elementos del eje X (horizontal) */
+    flex-wrap: wrap; /* redimensiona los elementos para que siempre mantengan el mismo espacio (los empuja abajo) */
+    align-items: stretch; /* redimensiona el conjunto de elementos del eje Y (vertical) */
+    flex-direction: row; /* invierte los ejes, row por defecto */
+    align-content: space-between;
+}
+/* justify-content: 
+        - space-between (reparte todo el espacio que tiene a los elementos)
+        - space-around (reparte todo el espacio que tiene alrededor de los elementos)
+        - space-evenly (reparte todo el espacio equitativamente)
+
+
+    align-items:
+        - stretch (se expanden los elementos en relación al tamaño del contenedor si no tienen height definido)
+        - center (centra los elementos, su espacio será en relación a su contenido si no tienen height definido)
+        - flex-start (los posiciona arriba de todo)
+        - flex-end (los posiciona abajo de todo)
+        - baseline (centra los elementos en función a su contenido)
+
+    align-content: alínea verticalmente las líneas de elementos
+
+        -------- flex-items --------
+
+    align-self: alinea verticalmente un solo elemento
+    flex-grow: hace crecer el espacio de un único elemento
+    flex-shrink: resta espacio de un único elemento
+    flex-order: cambia el orden de un único elemento
+*/
+
+.contenido-1 {
+    background-color: darkkhaki;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+}
+
+.contenido-2 {
+    background-color: darkkhaki;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+}
+
+.contenido-3 {
+    background-color: darkkhaki;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+}

@@ -1,0 +1,29 @@
+.contenedor {
+    display: flex;
+    background-color: darkgoldenrod;
+    height: 800px;
+    justify-content: space-around;
+}
+
+.contenido-1, .contenido-2, .contenido-3, .contenido-4 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid darkslategray;
+    background-color: indianred;
+}
+
+.contenido-1 {
+    overflow: hidden;
+}
+
+.contenido-2 {
+    overflow-y: scroll;
+}
+
+.contenido-3 {
+    overflow: visible;
+}
+
+.contenido-4 {
+    overflow: auto;
+}

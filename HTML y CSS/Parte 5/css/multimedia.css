@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wallpaper {
+    width: 50%;
+    opacity: 0.8;
+}
+
+.wallpaper:hover {
+    opacity: 1;
+}
