@@ -1,0 +1,13 @@
+/* Anidación de selectores */
+
+.contenedor p {
+    color: green;
+}
+
+.contenedor #boton {
+    background-color: chocolate;
+}
+
+body section.main .contenedor p {
+    font-size: larger;
+}
