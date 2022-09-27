@@ -1,0 +1,28 @@
+
+/* Al colocar flex-direction: column; los items se van a salir del container ya que "height: 5rem" es una altura definida. Para que eso no suceda utilizamos "min-height: 5rem;" de esta manera el contenedor será de 5rem como minimo, pero si los items son demasiados el height se estirará lo suficiente para contener los items.*/
+
+.container {
+    background-color: yellow;
+    padding: 0.25rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    
+    /* Eje principal */
+    justify-content: space-around;
+
+    /* Eje secundario */
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item2 {
+    align-self: stretch;
+}
