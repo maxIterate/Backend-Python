@@ -1,0 +1,9 @@
+{% extends './layouts/base.html' %}
+
+{% block title%}Portfolio{% endblock %}
+
+{% block main %}
+    {% for image in image_list %}
+        <img class="image" src='{{image.image.url}}' alt="">
+    {% endfor %}
+{% endblock %}

@@ -108,3 +108,32 @@ y agregar static a cada archivo que queremos importar desde la carpeta de static
 # Herencia de plantillas
 
 {% extends './layouts/base.html' %}
+
+------------------------------------------------------------
+
+# Enlace e inclusión
+
+Es buena practica utilizar los tag name="ejemplo" para gestionar las vinculaciones. Ya que si modificamos desde url tendríamos que ir plantilla por platnilla modificando la url. En cambio si tenemos un tag, todos los hipervinculos seguirán apuntando a ese tag, y solo se debe cambiar la url desde url.py
+
+el anchor quedaría de esta manera:
+
+<a href="{% url 'herencia' %}">
+
+Para atomizar nuestros proyectos, se crea una carpeta llamada "partials" dentro de layouts y se apunta a los archivos html se la siguiente manera:
+
+{% include 'layouts/partials/menu.html' %}
+
+------------------------------------------------------------
+
+# Documentación
+
+https://docs.djangoproject.com/en/4.1/
+
+------------------------------------------------------------
+
+# Práctica Templates
+
+Realizar una página con 2 urls.
+La primera dirección que habitará en el directorio raíz, en la URL principal será un logotipo con un pequeño texto sobre nuestra información.
+En la segunda página se estará listando unas series de imagenes que podría ser parte de un portfolio.
+
